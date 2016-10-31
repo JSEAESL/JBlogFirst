@@ -1,0 +1,9 @@
+# Site settings
+title: '水の如く' # Your Title
+tagline: '雪，静静的落下，落在肩上，在上面，积了厚厚的一层。' # A brief tagline for your site
+sidebar_image: /images/cover.jpg
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+baseurl: # the subpath of your site, e.g. /blog/
