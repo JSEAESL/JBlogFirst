@@ -21,7 +21,12 @@ layout: default
           <span class="meta">
             {{ post.date | date_to_string }}
           </span>
-          {{ post.excerpt }}
+        {% if post.sample_Content%}
+            <samplePost>{{ post.sample_Content }}</samplePost>
+        {% else %}
+            <samplePost> {{ post.excerpt }}<samplePost>
+        {% endif %}
+
         </li>
       {% endfor %}
     </ul>
