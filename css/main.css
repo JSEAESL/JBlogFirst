@@ -24,7 +24,8 @@ body {
 /* Type */
 
 h1,
-h2 {
+h2,
+samplePost {
   color:#0;
   font-family: 'Open Sans', sans-serif;
 }
